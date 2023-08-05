@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <!--  ---------------------------------- TITLE & SEARCHBAR HOLDER-----------------------------  -->
+
+    <h1 class="heading"> Weather Cities Project</h1>
+    <div class="searchbar">
+        <div class="search">
+            <img src="images/magnifyingglass.png" class="search-icon">
+            <input type="text" id="searchbox" placeholde="Search for a city or airports">
+        </div>
+        <button id="add-button">Add City</button>
+    </div>
+
+    <!--  ---------------------------------- CARD HOLDER-----------------------------  -->
+    <div id="Cards-container">
+        <div id="cards">
+            <div id="details">
+                <p id="temp">32° C</p>
+                <p id="wind">H:35° L:27°</p>
+                <p id="city-country">Delhi,IN</p>
+            </div>
+            <div id="condition">
+                <img src="images/Moon cloud fast wind.png" id="weather-img" alt="pic">
+                <p id="weather-type">Haze</p>
+            </div>
+        </div>
+
+        <div id="cards">
+            <div id="details">
+                <p id="temp">27° C</p>
+                <p id="wind">H:30° L:19°</p>
+                <p id="city-country">Bangalore,IN</p>
+            </div>
+            <div id="condition">
+                <img src="images/Moon cloud mid rain.png" id="weather-img" alt="pic">
+                <p id="weather-type">Clouds</p>
+            </div>
+        </div>
+
+        <div id="cards">
+            <div id="details">
+                <p id="temp">27° C</p>
+                <p id="wind">H:29° L:26°</p>
+                <p id="city-country">Jamshedpur,IN</p>
+            </div>
+            <div id="condition">
+                <img src="images/Sun cloud angled rain.png" id="weather-img" alt="pic">
+                <p id="weather-type">Clouds</p>
+            </div>
+        </div>
+        <script src="script.js"></script>
+</body>
+
+</html>
